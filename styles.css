@@ -45,7 +45,7 @@ footer{margin-top:41px;border-top:1px solid var(--line);padding:24px 0 30px;disp
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}a,.paper-image{transition:none}}
 
 .chinese-name{display:inline-block;font-size:.57em;font-weight:400;letter-spacing:1px;color:#596778;margin-left:9px;vertical-align:middle}
-.experience{margin-bottom:42px}.experience-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;padding:4px 0 8px}.experience-item{display:flex;gap:14px;align-items:center}.experience-item h3{font-size:13px;margin:0}.experience-item p{font-size:11px;color:var(--muted);margin:3px 0 0;letter-spacing:1px}@media(max-width:760px){nav{gap:18px}.intro{gap:25px}.chinese-name{display:block;margin:10px 0 0}.experience-grid{gap:12px}.experience-item{gap:10px}.experience-item h3{font-size:12px}}
+.experience{margin-bottom:42px}.experience-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;padding:4px 0 8px}.experience-item{display:flex;gap:14px;align-items:center}.experience-item h3{font-size:13px;margin:0}.experience-item p{font-size:11px;color:var(--muted);margin:3px 0 0;letter-spacing:1px}@media(max-width:760px){nav{gap:18px}.intro{gap:25px}.chinese-name{display:block;margin:10px 0 0}.experience-grid{gap:12px}.experience-item{gap:10px}.experience-item h3{font-size:12px}}
 @media(max-width:560px){.site-header{flex-wrap:wrap;gap:9px}nav{gap:20px;font-size:12px}.experience-grid{grid-template-columns:1fr;gap:20px}.experience-item h3{font-size:14px}.chinese-name{display:inline-block;margin:0 0 0 7px;font-size:.52em}.experience{margin-bottom:32px}}
 
 .research-directions{margin:14px 0 16px;padding-left:19px;font-size:14px;line-height:1.7}.research-directions li+li{margin-top:7px}.research-directions strong{font-weight:600}
@@ -64,3 +64,5 @@ footer{margin-top:41px;border-top:1px solid var(--line);padding:24px 0 30px;disp
 
 .awards{margin-top:35px;scroll-margin-top:22px}nav{flex-wrap:wrap}
 @media(max-width:560px){.awards{margin-top:25px}}
+
+#news .news-list li{grid-template-columns:76px minmax(0,1fr)}#news .news-list time{white-space:nowrap}
