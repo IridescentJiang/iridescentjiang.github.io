@@ -66,3 +66,6 @@ footer{margin-top:41px;border-top:1px solid var(--line);padding:24px 0 30px;disp
 @media(max-width:560px){.awards{margin-top:25px}}
 
 #news .news-list li{grid-template-columns:76px minmax(0,1fr)}#news .news-list time{white-space:nowrap}
+
+.paper-image-stack{flex-direction:column;gap:8px}
+.paper-image-stack img{height:auto}
